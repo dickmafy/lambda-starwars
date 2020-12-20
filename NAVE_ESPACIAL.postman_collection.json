@@ -1,0 +1,33 @@
+{
+	"variables": [],
+	"info": {
+		"name": "NAVE_ESPACIAL",
+		"_postman_id": "c0057862-79bd-2ef2-6a79-487533183fec",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"url": "",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

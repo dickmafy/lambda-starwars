@@ -1,0 +1,37 @@
+#NAVE PUT
+https://9eullarsqf.execute-api.sa-east-1.amazonaws.com/default/nave_espacial_put
+
+{
+  "cargo_capacity": "1000000000000",
+  "consumables": "3 years",
+  "cost_in_credits": "1000000000000",
+  "created": "2014-12-10T16",
+  "crew": "342953",
+  "id": "2",
+  "MGLT": "10 MGLT"
+}
+
+#NAVE GET
+https://9eullarsqf.execute-api.sa-east-1.amazonaws.com/default/nave_espacial_get
+
+[
+    {
+        "MGLT": "10 MGLT",
+        "consumables": "3 years",
+        "cost_in_credits": "1000000000000",
+        "created": "2014-12-10T16",
+        "cargo_capacity": "1000000000000",
+        "id": "2",
+        "crew": "342953"
+    },
+    {
+        "MGLT": "10 MGLT",
+        "consumables": "3 years",
+        "cost_in_credits": "1000000000000",
+        "created": "2014-12-10T16",
+        "cargo_capacity": "1000000000000",
+        "id": "1",
+        "crew": "342953"
+    }
+]
+
