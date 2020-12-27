@@ -1,0 +1,45 @@
+#### UPDATE
+
+POST - https://ssqxvc8pwh.execute-api.sa-east-1.amazonaws.com/dev/v1/kitten
+{
+    "body": "{\"name\":\"aaa\",\"age\":\"22\"}"
+}
+
+#create: thekittens-crud-dev-create
+POST https://ssqxvc8pwh.execute-api.sa-east-1.amazonaws.com/dev/v1/kitten
+ 
+{
+   "name" : "fluffykins",
+   "age" : 33
+}
+
+
+#### list: thekittens-crud-dev-list
+GET https://ssqxvc8pwh.execute-api.sa-east-1.amazonaws.com/dev/v1/kitten/list
+
+#### version: thekittens-crud-dev-version
+GET  https://ssqxvc8pwh.execute-api.sa-east-1.amazonaws.com/dev/v1/kitten/version
+
+### delete
+
+
+POST https://ssqxvc8pwh.execute-api.sa-east-1.amazonaws.com/dev/v1/kitten
+{
+    "body": "{\"name\":\"jose\"}"
+}
+
+
+
+
+############
+POST - https://ssqxvc8pwh.execute-api.sa-east-1.amazonaws.com/dev/v1/kitten/create
+
+
+###LIST
+GET https://ssqxvc8pwh.execute-api.sa-east-1.amazonaws.com/dev/v1/kitten/list
+
+GET - https://ssqxvc8pwh.execute-api.sa-east-1.amazonaws.com/dev/v1/kitten/{name}
+POST - https://ssqxvc8pwh.execute-api.sa-east-1.amazonaws.com/dev/v1/kitten/update
+POST - https://ssqxvc8pwh.execute-api.sa-east-1.amazonaws.com/dev/v1/kitten/delete
+GET - https://ssqxvc8pwh.execute-api.sa-east-1.amazonaws.com/dev/v1/kitten/version
+GET - https://ssqxvc8pwh.execute-api.sa-east-1.amazonaws.com/dev/v1/kitten/swapi

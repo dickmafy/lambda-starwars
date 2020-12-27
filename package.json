@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@jimdo/serverless-dotenv": "^1.0.0",
+    "aws-sdk": "^2.817.0",
+    "serverless-pseudo-parameters": "^2.5.0",
+    "swapi-node": "^0.6.0",
+    "uuid": "^8.3.2"
+  }
+}
